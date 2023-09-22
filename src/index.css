@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+:root{
+  --midnight-blue:#15141F;
+  --indigo: #27283A;
+  --darker-indigo:#242539;
+  --orange:#fd8c73;
+  --dark-orange:#934c3a;
+  --lightnight-blue:#383956;
+  --gray-blue:#bcbee6;
+}
+
+*{
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;;
+  font-weight: 300;
+  color: var(--gray-blue);
+}
+
+
+body{
+  background-color: var(--indigo);
+}
+
+h1{
+  font-family: 'Oswald', sans-serif;
+  font-size: 3rem;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
